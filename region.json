@@ -1,0 +1,21 @@
+// Region.json
+
+{
+    "id": int,
+    "name": string,
+    "loc": [ // x,y,z hex grid loc
+        "x": int,
+        "y": int,
+        "z": int
+    ],
+    "terrain": [ // attributes tbd
+        "description": string, // verbose description
+        "movement": int // movement cost 0-100
+    ],
+    "resources": [ // list with 0-100 concentration
+        "wood": int,
+        "flint": int,
+        "clay": int,
+        "cordage": int
+    ]
+}
